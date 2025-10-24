@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    // Step 1: Declare and initialize array
+    // 1: Declare and initialize array
     int arr[5] = {5, 3, 8, 1, 2};
     int n = 5;
 
@@ -32,13 +32,13 @@ int main() {
         }
     }
 
-    // Step 5: Display sorted array
+    // Display sorted array
     cout << "After Sorting: ";
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
     cout << endl;
 
-    // Step 6: Display Max and Min
+    // Display Max and Min
     cout << "Maximum: " << max << endl;
     cout << "Minimum: " << min << endl;
 
